@@ -20,4 +20,6 @@ git push -u origin master
 5) let's commit our changes   git commit -m'test file added' 
 6) run git status -s . It should not print anything to console because all changes were commited (saved)
 7) we can see our commit history in this branch by running git log
+8) now lets make sure we're on our side branch, run command: git branch
+9) push this branch to git repo : git push origin second-step . Now we can open git repo in browser and see that we have 2 branches (master and repo) with different content 
 
