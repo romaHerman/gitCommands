@@ -6,7 +6,7 @@ echo "# gitCommands" >> README.md
 git init
 git add README.md
 git commit -m "first commit"
-git remote add origin https://github.com/romaHerman/gitCommands.git
+git remote add origin https://github.com/<YOU_REPO_NAME>/gitCommands.git
 git push -u origin master
 
 2)
@@ -22,4 +22,14 @@ git push -u origin master
 7) we can see our commit history in this branch by running git log
 8) now lets make sure we're on our side branch, run command: git branch
 9) push this branch to git repo : git push origin second-step . Now we can open git repo in browser and see that we have 2 branches (master and repo) with different content 
+
+3)
+#merge side branch to master 
+
+1) first let's go to master branch and pull latest changes (maybe our teammates did some changes while we were working inside second-step branhc)
+   - git checkout master 
+   - git pull 
+2) now we can got back to our branch 
+   - git checkout second-step
+3) and rebase (merge and put our changes on top ) our branch against develop
 
