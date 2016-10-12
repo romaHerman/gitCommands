@@ -1,13 +1,21 @@
+
 # gitCommands
+
+#0 
+open github your github accaunt and create new, empty git repo 
 
 1)
 #init repo 
-echo "# gitCommands" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git remote add origin https://github.com/<YOU_REPO_NAME>/gitCommands.git
-git push -u origin master
+create folder on your desctop (e.g. gitTest), 
+then open terminal, navigate to this folder (e.g. cd ~/Desktop/gitTest)
+print this in terminal
+
+1) echo "# gitCommands" >> README.md
+2) git init
+3) git add README.md
+4) git commit -m "first commit"
+5) git remote add origin https://github.com/<YOU_REPO_NAME>/gitCommands.git
+6) git push -u origin master
 
 2)
 #creare branch from master
