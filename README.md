@@ -19,7 +19,7 @@ git push -u origin master
 4) lets check current status with comand git status -s (we see A(added) near testFile, M near readme stands for Modified)
 5) let's commit our changes   git commit -m'test file added' 
 6) run git status -s . It should not print anything to console because all changes were commited (saved)
-7) we can see our commit history in this branch by running git log
+7) we can see our commit history in this branch by running git log (shift+Q to exit, arrows up and down to scroll the log)
 8) now lets make sure we're on our side branch, run command: git branch
 9) push this branch to git repo : git push origin second-step . Now we can open git repo in browser and see that we have 2 branches (master and repo) with different content 
 
@@ -31,5 +31,5 @@ git push -u origin master
    - git pull 
 2) now we can got back to our branch 
    - git checkout second-step
-3) and rebase (merge and put our changes on top ) our branch against develop
-
+3) and rebase (merge and put our changes on top ) our branch against master
+4) now we can go to master and merge our branch to master
